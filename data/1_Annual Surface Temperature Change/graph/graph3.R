@@ -34,21 +34,21 @@ transformed_data <- pivot_longer(selected_data, cols = -Country, names_to = "dat
 transformed_data$date <- as.Date(substring(transformed_data$date, 2), format = "%Y")
 
 # Extract the temperature type from the "Country" column
-transformed_data$variable <- ifelse(grepl("United Kingdom", transformed_data$Country), "UK_temperature", "US_temperature")
+transformed_data$variable <- ifelse(grepl("United Kingdom", transformed_data$Country), "United Kingdom", "United States")
 
 # Remove unnecessary columns
-transformed_data <- transformed_data[, c("date", "variable", "value")]
+transformed_data <- transformed_data[, c("date", "Country", "value")]
 
 # Print the transformed dataframe
 print(transformed_data)
 
 df <- transformed_data
-print(df, n = 1000)
+print(df, n = 5)
 str(df)
 
 # Multiple line plot
 plot1 <- ggplot(df, aes(x = date, y = value)) + 
-  geom_line(aes(color = variable), size = 1) +
+  geom_line(aes(color = Country), size = 1) +
   theme(legend.title = element_text(size = 18), legend.position = "top", legend.text = element_text(size = 16)) +
   scale_color_manual(values = c("#00AFBB", "#E7B800")) +
   ylab("Value") +
@@ -66,7 +66,7 @@ plot1
 
 # Area plot
 plot2 <- ggplot(df, aes(x = date, y = value)) + 
-  geom_area(aes(color = variable, fill = variable), alpha = 0.2, position = position_dodge(0.8)) +
+  geom_area(aes(color = Country, fill = Country), alpha = 0.2, position = position_dodge(0.8)) +
   theme(legend.title = element_text(size=18), legend.position = "top", legend.text = element_text(size = 16)) +
   scale_color_manual(values = c("#00AFBB", "#E7B800")) +
   scale_fill_manual(values = c("#00AFBB", "#E7B800")) +
