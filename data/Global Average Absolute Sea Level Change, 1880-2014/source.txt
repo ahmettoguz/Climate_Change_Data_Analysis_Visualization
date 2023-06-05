@@ -1,5 +1,0 @@
-Global Average Absolute Sea Level Change, 1880-2014
-https://datahub.io/core/sea-level-rise#resource-csiro_alt_gmsl_mo_2015
-
-Year and month of GMSL calculation (YYYY-MMM)
-Global Mean Sea Level in mm
