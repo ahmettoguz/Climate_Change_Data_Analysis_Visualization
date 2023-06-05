@@ -1,13 +1,4 @@
-figure_5:
-Figure 5. Change in mean sea level in the Pacific Ocean from 1992 to 2022.[dataset4]
+figure_8:
+Figure 8. Living Planet Index from 1970 to 2010, categorized by different income categories of the countries.[data5]
 
-Pasifik okyanusundaki su seviyesindeki artışı örnek olarak verebilirsin.
-
----------------------
-
-figure_6:
-Figure 6. Change in mean sea level in the Atlantic Ocean from 1992 to 2022.[dataset4]
-
-Atlantik okyanusundaki su seviyesindeki artışı örnek olarak verebilirsin.
-
-
+yüksek gelir düzeyinde living planet index artartken diğerlerinde azalma gözüküyor bundan bahsedebilirsin.
