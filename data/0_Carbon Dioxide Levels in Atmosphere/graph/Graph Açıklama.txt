@@ -1,5 +1,11 @@
 table_1:
 Table 1. Descriptive Statistics Carbox Dioxide PPM Values Between in 1970-2015 [dataset1].
 
+
+yıllara göre min ve max değerlerinin farkından bahsedebilirsin.
+---------------------
+
 figure_1:
 Figure 1. Carbox Dioxide PPM Values Between in 1958-2017 [dataset1].
+
+Yıllara göre olan hava kirliliği artışından bahsedebilirsin.

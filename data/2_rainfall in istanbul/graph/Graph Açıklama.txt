@@ -1,0 +1,13 @@
+figure_4:
+Figure 4. The weather conditions in Istanbul from 2009 to 2019 [dataset3]
+
+Yağmurlu havanın diğer havalara oranla çok az olduğundan bahsedebilirsin.
+
+---------------------
+
+figure_5:
+Figure 5. Precipitation ratio in Istanbul between the years 2009 - 2019 [dataset3]
+
+yağış miktarının düşmesinden bahsedebilirsin.
+
+
